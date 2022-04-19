@@ -9,6 +9,7 @@ class User:
     def __init__(self, hand_limit=10):
         self.hand_limit = hand_limit
         self.hand = []
+        self.matches = []
         self.score = 0
 
     def fill_hand(self, deck: Deck):
